@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Prisma';
+    src: url(./prisma/Prisma.ttf);
+}
+
+body{
+    font-family: 'Prisma', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: grey;
+    color: aliceblue;
+    background-color: #6B7277;
+    background-image: url("./Art/background.svg");
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    height: 6rem;
+    padding: 0px 20px 15px;
+    background-color: rgb(18, 24, 32);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+ul{
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.content{
+    display: flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+
+.piece{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 30px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    min-width: 0;
+    flex-basis: 20%;
+}
+
